@@ -1,0 +1,121 @@
+/* Add your custom CSS here */
+body{
+    background-color: #f8f8f8;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+.header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.header .logo {
+    max-width: 100px;
+}
+
+.login-layout {
+    margin: 100px 150px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.login-layout img {
+    height: 500px;
+    border-radius: 20px; 
+    /* margin-right: 20px;  */
+    margin: 40px 40px;
+    
+}
+
+.login-form {
+    flex-grow: 1; /* Allow the form to grow */
+    max-width: 50%; /* Adjust form width */
+    text-align: left;
+    margin: 30px;
+}
+.login-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-form .login-options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-form .login-options a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login-form .login-options a:hover {
+    text-decoration: underline;
+}
+
+.login-button button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-button button:hover {
+    background-color: #0066cc;
+}
+
+.social-button {
+    font-size: 26px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.social-button:hover {
+    background-color: #ddd;
+}
+
+@media screen and (max-width: 768px) {
+    .login-layout {
+        margin: 50px 10px;
+    }
+
+    .login-form {
+        padding: 0 10px;
+    }
+
+    .login-layout img{
+        display: none;
+    }
+}

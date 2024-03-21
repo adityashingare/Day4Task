@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="./images/Dragon_Ball_Z_logo.svg.png" alt="Company Logo" class="logo">
+        </div>
+        <div class="header-right">
+            <button>
+                <i class="fas fa-language"></i>
+            </button>
+            <button>
+                <i class="fas fa-question"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="login-layout">
+        <div>
+            <img src="./images/Goku.jpg" alt="Login Image" class="login-image">
+        </div>
+        <div class="login-form">
+            <form action="#" method="POST"> <!-- Replace "#" with your form action URL -->
+                <h2>Login</h2>
+                <p>Login to access your DBZ account</p>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="login-options">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <br>
+                <div class="login-button">
+                    <button>Login Now</button>
+                </div>
+            </form>
+            <br>
+            <p style="text-align:center;">Or</p>
+            <div class="login-options">
+                <button class="social-button">
+                    <i class="fab fa-facebook"></i>
+                </button>
+                <button class="social-button">
+                    <i class="fab fa-apple"></i>
+                </button>
+                <button class="social-button">
+                    <i class="fab fa-google"></i>
+                </button>
+            </div>
+            <p style="text-align: center;">Don't have DBZ account? <a href="#">Register here</a></p> <!-- Replace "#" with your registration link -->
+        </div>
+    </div>
+</body>
+</html>
