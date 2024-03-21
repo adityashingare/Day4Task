@@ -1,6 +1,9 @@
-/* Add your custom CSS here */
 body{
+    margin: 0%;
+    box-sizing: border-box;
     background-color: #f8f8f8;
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -11,7 +14,6 @@ body{
     padding: 20px;
     background-color: #f8f8f8;
     border-bottom: 1px solid grey;
-    margin-bottom: 20px;
 }
 
 .header button {
@@ -23,6 +25,25 @@ body{
 
 .header .logo {
     max-width: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.login-layout {
+    max-width: 880px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
 }
 
 .login-layout {
@@ -62,7 +83,7 @@ body{
 .login-form .login-options {
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-cw;
     align-items: center;
 }
 
